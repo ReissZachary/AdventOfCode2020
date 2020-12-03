@@ -21,6 +21,7 @@ namespace AdventOfCode
             Tuple<int, int> d2Result = Day2_PasswordPhilosophy.Execute(D2_FILE_PATH);
             Console.WriteLine($"Day 2 results are {d2Result}\n");
 
+            //Day 3
             Tuple<int, long> d3Result = Day3_TobagganTraj.Execute(D3_FILE_PATH);
             Console.WriteLine($"Day 3 results are: {d3Result}\n");
 
