@@ -10,6 +10,7 @@ namespace AdventOfCode
     {
         const string D1_FILE_PATH = "../../../DayInputs/day1input.txt";
         const string D2_FILE_PATH = "../../../DayInputs/day2input.txt";
+        const string D3_FILE_PATH = "../../../DayInputs/day3input.txt";
         static void Main(string[] args)
         {
             //Day 1
@@ -18,7 +19,11 @@ namespace AdventOfCode
 
             //Day2
             Tuple<int, int> d2Result = Day2_PasswordPhilosophy.Execute(D2_FILE_PATH);
-            Console.WriteLine($"Day 2 results are {d2Result}");
+            Console.WriteLine($"Day 2 results are {d2Result}\n");
+
+            Tuple<int, long> d3Result = Day3_TobagganTraj.Execute(D3_FILE_PATH);
+            Console.WriteLine($"Day 3 results are: {d3Result}\n");
+
         }
     }
 }
