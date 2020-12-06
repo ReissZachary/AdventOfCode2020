@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode.Days
 {
-    public class Day4_ValidPassports
+    public class Day4
     {
         public static Tuple<int, int> Execute(string filePath)
         {

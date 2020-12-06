@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode.Days
 {
-    public class Day5_BoardingPass
+    public class Day5
     {        
         public static Tuple<int, int> Execute(string filePath)
         {

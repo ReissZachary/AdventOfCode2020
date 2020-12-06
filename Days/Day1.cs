@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode.Days
 {
-    public class Day1_2020Sum
+    public class Day1
     {
         const int TARGET_NUMBER = 2020;
         public static Tuple<int, int> Execute(string path)

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode.Days
 {
-    public class Day2_PasswordPhilosophy
+    public class Day2
     {
         public static List<string> Passwords = new List<string>();
         public static List<string> Rules = new List<string>();

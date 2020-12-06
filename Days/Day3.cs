@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode.Days
 {
-    public class Day3_TobagganTraj
+    public class Day3
     {
         //text file dimensions 
         public static char[,] SLOPES = new char[31, 323];
